@@ -3,9 +3,7 @@
         <f7-list-item>
             <f7-label v-text="col.colName">列项</f7-label>
         </f7-list-item>
-        <f7-list>
-            <f7-list-item v-for="item in enums" radio :name="col.colCode" :checked="col.value === item.code" :value="item.code" :title="item.name"></f7-list-item>
-        </f7-list>
+        <f7-list-item v-for="item in enums" radio :name="col.colCode" :checked="col.value === item.code" :value="item.code" :title="item.name"></f7-list-item>
     </div>
 </template>
 

@@ -1,6 +1,8 @@
 <template>
     <f7-list>
+        <ul>
         <component v-for="col in cols" v-bind:is="col.inputType+'-component'" :col="col"></component>
+        </ul>
     </f7-list>
 </template>
 
@@ -14,11 +16,11 @@
             },
             workForm: {
                 type: Object,
-                required: true
+                required: false
             },
             cols: {
                 type: Array,
-                required: true
+                required: false
             }
         },
         data () {

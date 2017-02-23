@@ -78,7 +78,7 @@
               <f7-list-item link="/demo/" title="Demo"></f7-list-item>
               <f7-list-item link="/about/" title="About"></f7-list-item>
               <f7-list-item link="/form/" title="Form"></f7-list-item>
-              <f7-list-item link="/custom-form/1de9c7b6-317c-4d85-bd70-a3be8e902fc3/" title="Custom Form"></f7-list-item>
+              <f7-list-item link="/custom-form/e666e0a3-05e2-4c7f-a8d5-d18965e64d28/" title="Custom Form"></f7-list-item>
               <f7-list-item link="/dynamic-route/blog/45/post/125/?foo=bar#about" title="Dynamic Route"></f7-list-item>
             </f7-list>
             <f7-block-title>Side Panels</f7-block-title>

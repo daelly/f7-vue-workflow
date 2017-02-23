@@ -28,10 +28,14 @@
   },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^4.7.0",
     "framework7": "^1.5.2",
     "framework7-vue": "^0.7.2",
+    "iconfont": "^0.3.1",
     "jquery": "^3.1.1",
-    "vue": "^2.1.8"
+    "vue": "^2.1.8",
+    "vue-router": "^2.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

@@ -1,11 +1,9 @@
 <template>
-    <div :id="'content-'+workForm.formId">
-        <div>
-            <div class="sub-form-title" v-text="workForm.tableName">一一子表单</div>
-            <input type="hidden" :name="workForm.formId+'.PK'" value="" />
-            <input type="hidden" :name="workForm.formId+'.row'" value="" />
-            <form_output subForm="true" :workForm="workForm" :cols="cols"></form_output>
-        </div>
+    <div>
+        <div class="sub-form-title" v-text="workForm.tableName">一一子表单</div>
+        <input type="hidden" :name="workForm.formId+'.PK'" value="" />
+        <input type="hidden" :name="workForm.formId+'.row'" value="" />
+        <form-output :subForm="true" :workForm="workForm" :cols="cols"></form-output>
     </div>
 </template>
 
@@ -24,10 +22,10 @@
             }
         },
         data () {
-
+            return {};
         },
         components: {
-            form_output: FormOutput
+            'form-output': FormOutput
         }
     }
 </script>

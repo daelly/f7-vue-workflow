@@ -15,6 +15,8 @@ import Framework7Theme from 'framework7/dist/css/framework7.material.min.css'
 import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css'
 */
 
+import FontAwesome from './css/libs/css/font-awesome.min.css'
+
 // Import App Custom Styles
 import AppStyles from './css/app.css'
 

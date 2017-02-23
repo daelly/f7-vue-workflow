@@ -3,7 +3,7 @@
         <div class="sub-form" :id="workForm.formId">
             <div>
                 <div class="sub-many-title" v-text="workForm.tableName">子表单</div>
-                <div class="sub-form-add" :data-formid="workForm.formId">
+                <div class="sub-form-add">
                     <i class="icon-plus"></i>
                 </div>
                 <div style="clear: both;"></div>
@@ -26,8 +26,18 @@
 <script>
     export default {
         name: 'custom-sub-many-form',
+        props: {
+            workForm: {
+                type: Object,
+                required: false
+            },
+            cols: {
+                type: Array,
+                required: false
+            }
+        },
         data () {
-
+            return {};
         },
         methods: {
 
